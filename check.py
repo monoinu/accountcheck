@@ -1,4 +1,5 @@
 pythonでリクエストを取得
+>>> import requests
 >>> r = requests.get('https://twitter.com/donabeno')
 >>> r.status_code
 200
@@ -28,12 +29,10 @@ False
 >>>
 >>>
 >>> quit()
-[root@localhost tmp]#
-[root@localhost tmp]#
-[root@localhost tmp]#
 
-
-
+>>> import requests
+>>> account = name
+>>> service = http://sfdfafddfasfa/
 >>> url = twitter + account
 >>> print url
 https://twitter.com/fdjksajfkajfkjfadjk
@@ -49,6 +48,4 @@ https://twitter.com/fdjksajfkajfkjfadjk
 >>> r.status_code
 200
 >>>
->>>
->>>
->>>
+
